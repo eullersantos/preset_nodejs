@@ -1,17 +1,16 @@
-
 {
   "compilerOptions": {
-    "target": "es5", 
+    "target": "es5",
     "lib": ["es6", "dom"],
     "types": ["node"],
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "baseUrl": "./src",                             
+    "baseUrl": "./src",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "skipLibCheck": true,                           
-    "forceConsistentCasingInFileNames": true        
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
