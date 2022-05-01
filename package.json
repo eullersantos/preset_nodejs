@@ -15,7 +15,8 @@
     "test:clear": "jest --clearCache",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "yarn test -- --watch --testPathPattern=tests/unit",
-    "test:integration": "yarn test -- --watch --testPathPattern=tests/integration"
+    "test:integration": "yarn test -- --watch --testPathPattern=tests/integration",
+    "test:ci": "yarn test -- --coverage"
   },
   "lint-staged": {
     "*.ts": [
